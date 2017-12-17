@@ -37,9 +37,9 @@ def kind
   elsif
     isosceles?
     @type = :isosceles
-  elsif 
-    scalene? 
-    @type = :scalene 
+  elsif
+    scalene?
+    @type = :scalene
   end
 end
 end
