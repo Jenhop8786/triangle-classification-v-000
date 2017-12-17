@@ -3,6 +3,7 @@ class Triangle
 def initialize(equilateral, isosceles, scalene)
   @equilateral = equilateral
   @isosceles = isosceles
-  @scalene = scalene 
-  
+  @scalene = scalene
+
+end
 end
