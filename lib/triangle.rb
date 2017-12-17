@@ -1,6 +1,6 @@
 class Triangle
 
-attr_accessor :a, :b, :c 
+attr_accessor :a, :b, :c
 attr_reader :type
 
 def initialize(a, b, c)
@@ -47,4 +47,3 @@ class TriangleError < StandardError
   end
 
   end
-  
