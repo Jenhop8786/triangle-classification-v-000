@@ -36,7 +36,10 @@ def kind
     @type = :equilateral
   elsif
     isosceles?
-    @type = :scalene
+    @type = :isosceles
+  elsif 
+    scalene? 
+    @type = :scalene 
   end
 end
 end
